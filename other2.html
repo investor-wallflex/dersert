@@ -1,0 +1,38 @@
+</head>
+<body>
+    <div id="cart">
+        <div class="product">
+            <h2>Product 1</h2>
+            <button onclick="decrement('product1')">-</button>
+            <span id="product1" class="quantity">0</span>
+            <button onclick="increment('product1')">+</button>
+        </div>
+        <div class="product">
+            <h2>Product 2</h2>
+            <button onclick="decrement('product2')">-</button>
+            <span id="product2" class="quantity">0</span>
+            <button onclick="increment('product2')">+</button>
+        </div>
+        
+        
+        <script>
+            function increment(productId) {
+    const quantityElement = document.getElementById(productId);
+    let currentQuantity = parseInt(quantityElement.textContent);
+    quantityElement.textContent = currentQuantity + 1;
+}
+
+function decrement(productId) {
+    const quantityElement = document.getElementById(productId);
+    let currentQuantity = parseInt(quantityElement.textContent);
+    
+    if (currentQuantity > 0) {
+        quantityElement.textContent = currentQuantity - 1;
+    }
+}
+
+        </script>
+    </div>
+
+        
+    </body>

@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    background-color: rgb(255, 244, 196, 0.1 );
+}
+   
+.container{
+    
+    width: 400px;
+    height: 400vh;
+    padding: 10px;
+    
+    
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.head img{
+    width: 20px;
+}
+.productImage img{
+    width: 370px;
+    margin-top: 10px;
+}
+
+
+form{
+max-width: fit-content;
+
+}
+button{
+    border: none;
+    color: red;  
+    
+}
+.formDiv button img{
+    width: 10px;
+   
+}
+.formDiv button{
+    text-align:  center;
+}
+span{
+    color: red;
+}
