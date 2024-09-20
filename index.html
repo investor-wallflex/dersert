@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./other.css">
+    <script src="./other.js"></script>
+</head>
+<body>
+
+    <div class="container"><!--container start here-->
+        <header class="DesertsAdd-to-cart">
+            <h2>Deserts</h2>
+           
+        </header>
+        
+        <div id="cart">
+            <div class="product"><!--product a start here-->
+                <img class="productimage" src="./addtocart/image-brownie-mobile.jpg" alt="">
+                <button onclick="decrement('productA')">-</button>
+                <span id="productA-quantity"><img class="add" src="./addtocart/icon-add-to-cart.svg" alt="">Add to cart</span>
+                <button onclick="increment('productA', 5.50)">+</button>
+                <p>Brownie</p>
+                <h3>Salted caramel Brownie</h3>
+                <p class="price">$5.50</p>  
+            </div>
+
+            <!--product a end here-->
+
+            <div class="product"><!--product B start here-->
+                <img class="productimage" src="./addtocart/image-baklava-mobile.jpg" alt="">
+                <button onclick="decrement('productB')">-</button>
+                <span id="productB-quantity"><img class="add" src="./addtocart/icon-add-to-cart.svg" alt="">Add to cart</span>
+                <button onclick="increment('productB', 5.50)">+</button>
+                <p>Baklava</p>
+                <h3>Pistachio Baklava</h3>
+                <p class="price">$4.00</p>  
+            </div>
+            <!--product a end here-->
+
+            <div class="product"><!--product C start here-->
+                <img class="productimage" src="./addtocart/image-cake-mobile.jpg" alt="">
+                <button onclick="decrement('productC')">-</button>
+                <span id="productC-quantity"><img class="add" src="./addtocart/icon-add-to-cart.svg" alt="">Add to cart</span>
+                <button onclick="increment('productC', 5.50)">+</button>
+                <p>Cake</p>
+                <h3>Red Velvet cake</h3>
+                <p class="price">$4.50</p>  
+            </div>
+            <!--product C end here-->
+
+            <div class="product"><!--product D start here-->
+                <img class="productimage" src="./addtocart/image-creme-brulee-mobile.jpg" alt="">
+                <button onclick="decrement('productD')">-</button>
+                <span id="productD-quantity"><img class="add" src="./addtocart/icon-add-to-cart.svg" alt="">Add to cart</span>
+                <button onclick="increment('productD', 7.00)">+</button>
+                <p>Creme Brulee</p>
+                <h3>Vanilla Bean Creme Brulee</h3>
+                <p class="price">$7.00</p>  
+            </div>
+            <!--product d end here-->
+           
+            <div class="product"><!--product E start here-->
+                <img class="productimage" src="./addtocart/image-macaron-mobile.jpg" alt="">
+                <button onclick="decrement('productE')">-</button>
+                <span id="productE-quantity"><img class="add" src="./addtocart/icon-add-to-cart.svg" alt="">Add to cart</span>
+                <button onclick="increment('productE', 7.00)">+</button>
+                <p>Macaron</p>
+                <h3>Macaron Mix of Five</h3>
+                <p class="price">$8.00</p>  
+            </div>
+            <!--product E end here-->
+
+            <div class="product"><!--product F start here-->
+                <img class="productimage" src="./addtocart/image-meringue-mobile.jpg" alt="">
+                <button onclick="decrement('productF')">-</button>
+                <span id="productF-quantity"><img class="add" src="./addtocart/icon-add-to-cart.svg" alt="">Add to cart</span>
+                <button onclick="increment('productF', 7.00)">+</button>
+                <p>Pie</p>
+                <h3>Lemon Meringue Pie</h3>
+                <p class="price">$5.00</p>  
+            </div>
+            <!--product F end here-->
+
+            <div class="product"><!--product G start here-->
+                <img class="productimage" src="./addtocart/image-panna-cotta-mobile.jpg" alt="">
+                <button onclick="decrement('productG')">-</button>
+                <span id="productG-quantity"><img class="add" src="./addtocart/icon-add-to-cart.svg" alt="">Add to cart</span>
+                <button onclick="increment('productG', 6.50)">+</button>
+                <p>Panna Cotta</p>
+                <h3>Vanilla Panna Cotta</h3>
+                <p class="price">$6.50</p>  
+            </div>
+            <!--product G end here-->
+
+            
+            <div class="product"><!--product H start here-->
+                <img class="productimage" src="./addtocart/image-tiramisu-mobile.jpg" alt="">
+                <button onclick="decrement('productH')">-</button>
+                <span id="productH-quantity"><img class="add" src="./addtocart/icon-add-to-cart.svg" alt="">Add to cart</span>
+                <button onclick="increment('productH', 5.50)">+</button>
+                <p>Tiramisu</p>
+                <h3>Classic Tiramisu</h3>
+                <p class="price">$5.50</p>  
+            </div>
+            <!--product H end here-->
+
+            <div class="product"><!--product I start here-->
+                <img class="productimage" src="./addtocart/image-waffle-mobile.jpg" alt="">
+                <button onclick="decrement('productI')">-</button>
+                <span id="productI-quantity"><img class="add" src="./addtocart/icon-add-to-cart.svg" alt="">Add to cart</span>
+                <button onclick="increment('productI', 6.50)">+</button>
+                <p>Waffle</p>
+                <h3>Waffle with Berries</h3>
+                <p class="price">$6.50</p>  
+            </div>
+            <!--product I end here-->
+
+            <h3>Total Price: $<span id="total-price">0</span></h3>
+        </div>
+
+    </div><!--container ends here-->
+
+
+
+</body>
+</html>
