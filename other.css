@@ -60,3 +60,25 @@
     margin-top: 30px;
    
    }
+   @media only screen and (min-width: 1024px) {
+    /* Your desktop styles go here */
+    body {
+        background-color: lightblue;
+       
+    }
+    
+    .container {
+      
+     
+    
+       
+    }
+    
+    h1 {
+        font-size: 2.5em;
+    }
+    #cart{
+        display: grid;
+        grid-template-columns: repeat(3, 9fr)
+    }
+   }
