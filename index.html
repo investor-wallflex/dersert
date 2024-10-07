@@ -14,11 +14,12 @@
             <h2>Deserts</h2>
            
         </header>
+    
         
         <div id="cart">
             <div class="product"><!--product a start here-->
                 <img class="productimage" src="./addtocart/image-brownie-mobile.jpg" alt="">
-                <button onclick="decrement('productA')">-</button>
+                <button onclick="decrement('productA' )">-</button>
                 <span id="productA-quantity"><img class="add" src="./addtocart/icon-add-to-cart.svg" alt="">Add to cart</span>
                 <button onclick="increment('productA', 5.50)">+</button>
                 <p>Brownie</p>
@@ -30,7 +31,7 @@
 
             <div class="product"><!--product B start here-->
                 <img class="productimage" src="./addtocart/image-baklava-mobile.jpg" alt="">
-                <button onclick="decrement('productB')">-</button>
+                <button  onclick="decrement('productB')">-</button>
                 <span id="productB-quantity"><img class="add" src="./addtocart/icon-add-to-cart.svg" alt="">Add to cart</span>
                 <button onclick="increment('productB', 5.50)">+</button>
                 <p>Baklava</p>
@@ -117,7 +118,15 @@
             </div>
             <!--product I end here-->
 
-            <h3 class="total">Total Price: $<span id="total-price">0</span></h3>
+            <div class="cartDiv"><!--empty cart  start from here-->
+                <p class="numbersIn">Your Cart (<span  id="cartTotal">0</span>)</p>
+                <img id="empty-cart-image" src="./addtocart/illustration-empty-cart.svg" alt="Empty Cart">
+               <ul id="cart-items"></ul>
+                <h3 class="total">Total Price: $<span id="total-price">0</span></h3>
+            </div><!--empty cart end here-->
+            <div id="">
+
+            </div>
         </div>
 
     </div><!--container ends here-->

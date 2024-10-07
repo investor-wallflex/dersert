@@ -60,6 +60,27 @@
     margin-top: 30px;
    
    }
+   #cart-item{
+    list-style: none;
+    padding: 0;
+    
+   }
+ 
+
+   #empty-cart-image{
+    display: block;
+    width: 200px;  
+    }
+    #cart-items {
+        list-style: none;
+        padding: 0%;
+        
+    }
+
+.cartDiv{
+    border: solid bisque;
+}
+
    @media only screen and (min-width: 1024px) {
     /* Your desktop styles go here */
     body {
