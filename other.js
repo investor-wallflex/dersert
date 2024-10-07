@@ -31,7 +31,7 @@ function updateCart() {
     const emptyCartImage = document.getElementById('empty-cart-image');
     
     // clear the cart list before adding new ones
-
+    
     cartItems.innerHTML = '';
     
     // loop through each product in the cart
@@ -44,6 +44,13 @@ function updateCart() {
         //update cartTotal and totalPrice
         totalPrice += quantity * cart[product].price;
         cartTotal += quantity;
+
+        //if the product is in cart (quanlity > 0), display its name and image
+
+        if (quantity > 0) {
+            
+            const li = document.createElement('li');
+        }
     }
 
         document.getElementById('cartTotal').innerText = cartTotal;
@@ -51,6 +58,8 @@ function updateCart() {
 
        
 }
+
+
 
 
         
